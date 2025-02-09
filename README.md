@@ -18,6 +18,8 @@ This is a project I did for my Statistical Modeling and Data Analytics course, w
 - Algorithms Used: Linear Regression, Random Forest, Logistic Regression, and K-Nearest Neighbors.  
 - Explored the impact of socio-economic factors and study habits on cumulative GPA.
 - Identified key predictors using feature importance and correlation analysis.
+![Screenshot 2025-02-09 at 12 05 17 AM](https://github.com/user-attachments/assets/a6e70a59-8424-4aba-a1f9-dd11f91594c4)
+![Screenshot 2025-02-09 at 12 05 42 AM](https://github.com/user-attachments/assets/d1f451af-e790-404f-8bda-9ffeb5987487)
 
 ## [Project 3: Car Rental Management System Using Java](https://github.com/lingjin0725/Java)
 
