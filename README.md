@@ -18,3 +18,4 @@ This is a project I completed for my **Data Structures and Algorithms** course, 
   - Top-paying degree: Chemical Engineering ($107,000).  
   - Best performance: Hash Table (faster than BST).  
 - **Conclusion**: The Hash Table was the superior data structure for this analysis due to its efficiency.  
+![Screenshot 2024-12-01 at 1 39 47 PM](https://github.com/user-attachments/assets/a048191a-4a9a-42f6-8bc4-f896c1205e4c)
