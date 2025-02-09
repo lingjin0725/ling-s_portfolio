@@ -9,4 +9,4 @@ This is a project I did for my Data Structures and Algorithms course, where I an
 - Algorithms Used: Hashing for fast lookups, BST for ordered storage and retrieval.  
 - Optimized the BST traversal and hash table efficiency.
 - Conclusion: The Hash Table was the superior data structure for this analysis due to its efficiency.  
-![Screenshot 2024-12-01 at 1 39 47 PM](https://github.com/user-attachments/assets/a048191a-4a9a-42f6-8bc4-f896c1205e4c)
+![Screenshot 2025-02-08 at 8 43 31 PM](https://github.com/user-attachments/assets/c7a60cab-5ac6-4737-af0c-7c70ede647f0)
