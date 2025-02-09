@@ -15,7 +15,7 @@ This is a project I did for my Data Structures and Algorithms course, where I an
 
 This is a project I did for my **Statistical Modeling and Data Analytics** course, where I analyzed factors influencing student academic performance.  
 
-- Data was taken from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/)  
+- Data was taken from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/).  
 - The analysis uses regression and classification techniques. 
 - Algorithms Used: Linear Regression, Random Forest, Logistic Regression, and K-Nearest Neighbors.  
 - Explored the impact of socio-economic factors and study habits on cumulative GPA.
