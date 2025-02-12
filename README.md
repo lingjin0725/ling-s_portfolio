@@ -9,7 +9,7 @@ This is a project I did for my Data Structures and Algorithms course, where I an
 - Conclusion: The Hash Table was the superior data structure for this analysis due to its efficiency.  
 ![Screenshot 2025-02-08 at 8 46 43 PM](https://github.com/user-attachments/assets/d4282b7b-a1ba-4112-8dbd-cd5d4015229f)
 
-## [Project 2: High-Dimensional Data Analysis and Visualization Using R](https://github.com/lingjin0725/nycflights13)
+## [Project 2: Flight Delays and Network Analysis with High Dimensional Visualization in R](https://github.com/lingjin0725/nycflights13)
 
 This project, completed for my High-Dimensional Data Learning and Visualization course, explores flight delays, network structures, and interactive visualizations using R. I analyzed arrival delays from the `nycflights13` dataset, applied mathematical expressions in visualizations, and created interactive plots with Plotly. Additionally, I used network analysis with `igraph` to study social structures and applied PCA and clustering to visualize high-dimensional data. This project showcases advanced statistical modeling and visualization techniques for making complex data more interpretable.
 ![000010](https://github.com/user-attachments/assets/9c3bd060-5849-47d0-a316-01a423566341)
