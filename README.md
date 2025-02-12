@@ -28,3 +28,9 @@ This project was developed for my Program Design and Development course, focusin
 - Implemented object-oriented programming principles with structured classes for vehicle management, customer handling, and rental processing.  
 - Utilized ArrayLists for dynamic inventory management, ensuring efficient data storage and retrieval.  
 - Designed a graphical user interface for intuitive rental processing, real-time inventory tracking, and vehicle returns.  
+
+## [Project 4: High-Dimensional Data Analysis and Visualization Using R](https://github.com/lingjin0725/nycflights13)
+
+### **High-Dimensional Data Learning and Visualization**  
+
+This project, completed for my **High-Dimensional Data Learning and Visualization** course, explores **flight delays, network structures, and interactive visualizations** using **R**. I analyzed **arrival delays from the `nycflights13` dataset**, applied **mathematical expressions in visualizations**, and created **interactive plots with Plotly**. Additionally, I used **network analysis with `igraph`** to study social structures and applied **PCA and clustering** to visualize high-dimensional data. This project showcases **advanced statistical modeling and visualization techniques** for making complex data more interpretable.
