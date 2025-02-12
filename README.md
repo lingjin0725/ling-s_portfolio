@@ -11,7 +11,11 @@ This is a project I did for my Data Structures and Algorithms course, where I an
 
 ## [Project 2: Flight Delays and Network Analysis with High Dimensional Visualization in R](https://github.com/lingjin0725/nycflights13)
 
-This project was completed for my High-Dimensional Data Learning and Visualization course, where I explored flight delays, network structures, and interactive visualizations using R. I analyzed arrival delays from the `nycflights13` dataset, applied mathematical expressions in visualizations, and created interactive plots with Plotly. Additionally, I used network analysis with `igraph` to study social structures and applied PCA and clustering to visualize high-dimensional data. This project showcases advanced statistical modeling and visualization techniques for making complex data more interpretable.
+This project was completed for my High-Dimensional Data Learning and Visualization course, where I explored flight delays, network structures, and interactive visualizations using R. 
+- Analyzed arrival delays from the nycflights13 dataset.
+- Applied mathematical expressions in visualizations for better interpretation.
+- Created interactive plots using Plotly and used igraph for network analysis to study social structures.
+- Showcased advanced statistical modeling and visualization techniques for interpreting complex data.
 ![000010](https://github.com/user-attachments/assets/9c3bd060-5849-47d0-a316-01a423566341)
 ![000014](https://github.com/user-attachments/assets/bd5b29f7-a38b-452b-8ba9-a189877e183e)
 ![newplot](https://github.com/user-attachments/assets/f0b5d0ef-758f-4b94-a901-c66e6a8dd536)
