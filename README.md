@@ -17,6 +17,9 @@ This project, completed for my High-Dimensional Data Learning and Visualization 
 ![000010](https://github.com/user-attachments/assets/9c3bd060-5849-47d0-a316-01a423566341)
 ![000014](https://github.com/user-attachments/assets/bd5b29f7-a38b-452b-8ba9-a189877e183e)
 ![newplot](https://github.com/user-attachments/assets/f0b5d0ef-758f-4b94-a901-c66e6a8dd536)
+![000010](https://github.com/user-attachments/assets/dfb9b47a-018e-4805-96c6-2f185fd6cbfa)
+
+
 
 ## [Project 3: Higher Education Students Performance Evaluation Using R](https://github.com/lingjin0725/R)
 
