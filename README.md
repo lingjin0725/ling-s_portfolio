@@ -1,7 +1,7 @@
 <table>
   <tr>
-    <td width="160">
-      <img src="IMG_9900.png" alt="Ling Jin" width="150" style="border-radius: 50%; object-fit: cover;" />
+    <td width="180">
+      <img src="IMG_9900.png" alt="Ling Jin" width="160" height="200" style="border: none; border-radius: 0; object-fit: cover;" />
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
       <h2>Ling Jin</h2>
