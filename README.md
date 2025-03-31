@@ -1,4 +1,4 @@
-#Hi, I’m Ling Jin, a Data Analytics student with a passion for data structures, data-driven insights, and crafting visualizations that tell impactful stories. I enjoy solving problems through clean code, optimized algorithms, and thoughtful design.
+Hi, I’m Ling Jin, a Data Analytics student with a passion for data structures, data-driven insights, and crafting visualizations that tell impactful stories. I enjoy solving problems through clean code, optimized algorithms, and thoughtful design.
 
 ## [Project 1: Financial Analysis of College Degrees Using Python](https://github.com/lingjin0725/Python)
 
