@@ -1,15 +1,17 @@
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="IMG_9900.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border-radius: 0px; border: none;" />
+  <img src="IMG_9900.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border: none;" />
   <div>
-    <h2>Ling Jin</h2>
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <h2 style="margin: 0;">Ling Jin</h2>
+      <p style="margin: 0;">
+        <a href="Resume.pdf" target="_blank">Resume</a> |
+        <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
+      </p>
+    </div>
     <p>
       I'm currently studying Data Analytics at Washington State University.<br>
       I love working with data to uncover patterns, create meaningful visualizations, and support data-driven decision making.
-    </p>
-    <p>
-      <a href="Resume.pdf" target="_blank">Resume</a> |
-      <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
     </p>
   </div>
 </div>
