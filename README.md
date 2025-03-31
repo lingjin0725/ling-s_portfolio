@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="160">
-      <img src="images/lingjin.jpg" alt="Ling Jin" width="150" style="border-radius: 50%; object-fit: cover;" />
+      <img src="IMG_9900.png" alt="Ling Jin" width="150" style="border-radius: 50%; object-fit: cover;" />
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
       <h2>Ling Jin</h2>
@@ -10,7 +10,7 @@
         I love working with data to uncover patterns, create meaningful visualizations, and support data-driven decision making.
       </p>
       <p>
-        <a href="LingJin_Resume.pdf" target="_blank">Resume</a> |
+        <a href="Resume.pdf" target="_blank">Resume</a> |
         <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
       </p>
