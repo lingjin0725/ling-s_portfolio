@@ -10,8 +10,10 @@
       </p>
     </div>
     <p>
-      I'm currently studying Data Analytics at Washington State University.<br>
-      I love working with data to uncover patterns, create meaningful visualizations, and support data-driven decision making.
+      I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights. 
+      I enjoy uncovering patterns, building intuitive visualizations, and helping drive data-informed decisions.
+
+
     </p>
   </div>
 </div>
