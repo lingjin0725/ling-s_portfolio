@@ -1,24 +1,18 @@
-<table>
-  <tr>
-    <td width="180">
-      <div style="width:160px; height:200px; overflow: hidden;">
-        <img src="IMG_9900.png" alt="Ling Jin" style="all: unset; width: 160px; height: 200px; object-fit: cover; display: block;" />
-      </div>
-    </td>
-    <td style="vertical-align: top; padding-left: 20px;">
-      <h2>Ling Jin</h2>
-      <p>
-        I'm currently studying Data Analytics at Washington State University.<br>
-        I love working with data to uncover patterns, create meaningful visualizations, and support data-driven decision making.
-      </p>
-      <p>
-        <a href="Resume.pdf" target="_blank">Resume</a> |
-        <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
-      </p>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="IMG_9900.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border-radius: 0px; border: none;" />
+  <div>
+    <h2>Ling Jin</h2>
+    <p>
+      I'm currently studying Data Analytics at Washington State University.<br>
+      I love working with data to uncover patterns, create meaningful visualizations, and support data-driven decision making.
+    </p>
+    <p>
+      <a href="Resume.pdf" target="_blank">Resume</a> |
+      <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
+    </p>
+  </div>
+</div>
 
 
 
