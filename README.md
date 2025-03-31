@@ -1,3 +1,22 @@
+<div align="center">
+
+  <h2 style="color:#007acc;">Ling Jin</h2>
+
+  <img src="images/lingjin.jpg" alt="Ling Jin" style="width:200px; height:200px; border-radius: 50%; object-fit: cover;" />
+
+  <p>
+    <a href="your-resume.pdf">Resume</a> |
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a> |
+    <a href="https://github.com/lingjin0725">GitHub</a>
+  </p>
+
+  <p style="max-width: 400px; margin: 0 auto;">
+    I'm currently studying Data Analytics at Washington State University, and I love working with data to uncover patterns, create meaningful visualizations, and support data-driven decision making.
+  </p>
+
+</div>
+
+
 ## [Project 1: Financial Analysis of College Degrees Using Python](https://github.com/lingjin0725/Python)
 
 This is a project I did for my Data Structures and Algorithms course, where I analyzed the financial outcomes of various undergraduate degrees.  
