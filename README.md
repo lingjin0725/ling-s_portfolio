@@ -7,6 +7,7 @@ This is a project I did for my Data Structures and Algorithms course, where I an
 - Hashing for fast lookups, BST for ordered storage and retrieval. Optimized the BST traversal and hash table efficiency.
 - The Hash Table was the superior data structure for this analysis due to its efficiency.
 - Conclusion: This analysis helps students make informed decisions about their education investment based on expected returns by major.
+  
 ![Screenshot 2025-02-08 at 8 46 43 PM](https://github.com/user-attachments/assets/d4282b7b-a1ba-4112-8dbd-cd5d4015229f)
 
 ## [Project 2: Flight Delays and Network Analysis with High Dimensional Visualization in R](https://github.com/lingjin0725/nycflights13)
