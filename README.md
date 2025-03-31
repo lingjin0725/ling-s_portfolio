@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="Photo.jpg" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border-radius: 0px; border: none;" />
+  <img src="IMG_9900.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border-radius: 0px; border: none;" />
   <div>
     <h2>Ling Jin</h2>
     <p>
