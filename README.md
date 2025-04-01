@@ -5,7 +5,7 @@
   <div>
     <h2>Ling Jin</h2>
     <p>
-      I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights.<br><br>
+      I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights.
       I enjoy uncovering patterns, building intuitive visualizations, and helping drive data-informed decisions.
     </p>
 
