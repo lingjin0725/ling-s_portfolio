@@ -1,14 +1,13 @@
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-    <img src="IMG_2022.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border: none;" />
+  <img src="IMG_2022.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border: none;" />
 
-    <div>
-        <h2>Ling Jin</h2>
-        <p>
-            I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights.
-
-            I enjoy uncovering patterns, building intuitive visualizations, and helping drive data-informed decisions.
-        </p>
-    </div>
+  <div>
+    <h2>Ling Jin</h2>
+    <p>
+      I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights.
+      I enjoy uncovering patterns, building intuitive visualizations, and helping drive data-informed decisions.
+    </p>
+  </div>
 </div>
 
 
