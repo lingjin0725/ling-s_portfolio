@@ -1,4 +1,4 @@
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
 
   <img src="IMG_2022.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border-radius: 8px;" />
 
