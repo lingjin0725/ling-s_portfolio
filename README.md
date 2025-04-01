@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
-    <img src="IMG_2021.JPG" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border: none;" />
+    <img src="IMG_2022.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border: none;" />
 
     <div>
         <h2>Ling Jin</h2>
