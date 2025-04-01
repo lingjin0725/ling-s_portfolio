@@ -1,21 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ling Jin Portfolio</title>
+</head>
+<body>
+
+<!-- your intro block -->
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-
   <img src="IMG_2022.png" alt="Ling Jin" style="width: 160px; height: 200px; object-fit: cover; border-radius: 8px;" />
-
   <div>
     <h2>Ling Jin</h2>
     <p>
       I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights.<br><br>
       I enjoy uncovering patterns, building intuitive visualizations, and helping drive data-informed decisions.
     </p>
-
     <p style="margin-top: 10px;">
       <a href="Resume.pdf" target="_blank">Resume</a> |
       <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
       <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
     </p>
   </div>
-
 </div>
 
 
