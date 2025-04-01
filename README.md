@@ -18,7 +18,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,17 +27,23 @@
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       display: flex;
       height: 100vh;
+      overflow: hidden;
     }
 
     .sidebar {
       width: 250px;
-      background-color: #f8f8f8;
+      background-color: #f7f7f7;
       padding: 20px;
-      overflow-y: auto;
       border-right: 1px solid #ccc;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
     }
 
     .sidebar a {
@@ -65,41 +70,88 @@
     .project.active {
       display: block;
     }
+
+    .profile {
+      margin-bottom: 30px;
+    }
+
+    .profile img {
+      width: 120px;
+      border-radius: 8px;
+    }
+
+    .links a {
+      margin-right: 15px;
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    .project img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .sidebar a.active {
+      font-weight: bold;
+      color: #0073e6;
+    }
   </style>
 </head>
 <body>
+
   <div class="sidebar">
-    <a href="#" onclick="showProject('proj1')">🧠 NLP Project</a>
-    <a href="#" onclick="showProject('proj2')">📊 Dashboard Analysis</a>
-    <a href="#" onclick="showProject('proj3')">🤖 ML Model</a>
-    <!-- Add more project links -->
+    <div class="profile">
+      <img src="images/profile.jpg" alt="Ling Jin" />
+      <h2>Ling Jin</h2>
+      <p style="font-size: 0.9em;">
+        Data Analytics @ WSU • Turning data into insights • Visual storyteller
+      </p>
+      <div class="links">
+        <a href="#">Resume</a>
+        <a href="https://www.linkedin.com/in/lingjin0725/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <hr />
+    <a href="#" onclick="showProject('proj1', this)">🧠 NLP Project</a>
+    <a href="#" onclick="showProject('proj2', this)">📊 Dashboard Analysis</a>
+    <a href="#" onclick="showProject('proj3', this)">🤖 ML Model</a>
   </div>
 
   <div class="content">
     <div id="proj1" class="project active">
-      <h2>NLP Project</h2>
-      <p>Description of the project goes here.</p>
-      <img src="images/nlp_project.png" alt="NLP Project Screenshot" width="100%" />
+      <h2>🧠 NLP Project</h2>
+      <p>Built an NLP pipeline for sentiment analysis on customer reviews.</p>
+      <a href="https://github.com/lingjin0725/nlp_project" target="_blank">View Project</a>
+      <img src="images/nlp_project.png" alt="NLP Project Screenshot" />
     </div>
 
     <div id="proj2" class="project">
-      <h2>Dashboard Analysis</h2>
-      <p>Here's what I did with Power BI/Tableau...</p>
-      <img src="images/dashboard.png" alt="Dashboard Screenshot" width="100%" />
+      <h2>📊 Dashboard Analysis</h2>
+      <p>Created interactive dashboards using Tableau to analyze sales data.</p>
+      <a href="https://public.tableau.com/" target="_blank">View Dashboard</a>
+      <img src="images/dashboard.png" alt="Dashboard Screenshot" />
     </div>
 
     <div id="proj3" class="project">
-      <h2>ML Model</h2>
-      <p>ML details and evaluation metrics.</p>
-      <img src="images/ml_model.png" alt="Model Screenshot" width="100%" />
+      <h2>🤖 ML Model</h2>
+      <p>Trained and evaluated a classification model with 90% accuracy.</p>
+      <a href="https://github.com/lingjin0725/ml_model" target="_blank">View Project</a>
+      <img src="images/ml_model.png" alt="ML Model Screenshot" />
     </div>
   </div>
 
   <script>
-    function showProject(id) {
+    function showProject(id, el) {
       document.querySelectorAll('.project').forEach(p => p.classList.remove('active'));
       document.getElementById(id).classList.add('active');
+
+      document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+      if (el) el.classList.add('active');
     }
   </script>
+
 </body>
 </html>
+
