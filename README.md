@@ -70,10 +70,4 @@ This project was developed for my Program Design and Development course, focusin
 - Utilized ArrayLists for dynamic inventory management, ensuring efficient data storage and retrieval.  
 - Designed a graphical user interface for intuitive rental processing, real-time inventory tracking, and vehicle returns.  
 
-
-
-
-
-
-
 ![image](https://github.com/user-attachments/assets/81355b48-ebd9-4a3b-8673-042b27ec99e5)
