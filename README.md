@@ -56,12 +56,3 @@ This is a project I did for my Statistical Modeling and Data Analytics course, w
 ![000010](https://github.com/user-attachments/assets/cd9979e2-624d-432c-a26a-b057f53472db)
 
 
-## [Project 4: Car Rental Management System Using Java](https://github.com/lingjin0725/Java)
-
-This project was developed for my Program Design and Development course, focusing on building a Car Rental Management System using Java.  
-
-- Implemented object-oriented programming principles with structured classes for vehicle management, customer handling, and rental processing.  
-- Utilized ArrayLists for dynamic inventory management, ensuring efficient data storage and retrieval.  
-- Designed a graphical user interface for intuitive rental processing, real-time inventory tracking, and vehicle returns.  
-
-![image](https://github.com/user-attachments/assets/81355b48-ebd9-4a3b-8673-042b27ec99e5)
