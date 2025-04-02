@@ -18,16 +18,57 @@
 
 
 
-## [Project 1: Financial Analysis of College Degrees Using Python](https://github.com/lingjin0725/Python)
+<h2 id="project1">Project 1: Financial Analysis of College Degrees Using Python & Tableau</h2>
+<p>
+  This is a project I completed for my Data Structures and Algorithms course, where I analyzed the financial outcomes of various undergraduate degrees. The goal was to identify which majors offer the highest mid-career salary and evaluate data structure performance using Python (Hash Table vs BST). I then visualized the findings using Tableau for an interactive, comparative salary breakdown.
+</p>
 
-This is a project I did for my Data Structures and Algorithms course, where I analyzed the financial outcomes of various undergraduate degrees.  
+<ul>
+  <li>Data Source: Kaggle's “Degrees That Pay Back” dataset</li>
+  <li>Algorithms Used: Hash Table and Binary Search Tree</li>
+  <li>Hashing enabled fast lookups; BST allowed ordered retrieval</li>
+  <li>Conclusion: Hash Table proved more efficient; Chemical Engineering ranked highest</li>
+</ul>
 
-- Data was taken from the Kaggle dataset 
-- Algorithms Used: Hash Table and Binary Search Tree.
-- Hashing for fast lookups, BST for ordered storage and retrieval. Optimized the BST traversal and hash table efficiency.
-- The Hash Table was the superior data structure for this analysis due to its efficiency.
-- Conclusion: This analysis helps students make informed decisions about their education investment based on expected returns by major.  
-![Screenshot 2025-02-08 at 8 46 43 PM](https://github.com/user-attachments/assets/d4282b7b-a1ba-4112-8dbd-cd5d4015229f)
+<!-- Tableau Embed -->
+<div class='tableauPlaceholder' id='viz1743627978573' style='position: relative; margin: 30px 0;'>
+  <noscript>
+    <a href='#'>
+      <img alt='Sheet 1 ' src='https://public.tableau.com/static/images/Pr/Project1_17436277871230/Sheet1/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='Project1_17436277871230/Sheet1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/Pr/Project1_17436277871230/Sheet1/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+    <param name='filter' value='publish=yes' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1743627978573');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '100%';
+  vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<p>
+  View the full Python implementation and performance benchmarking on 
+  <a href="https://github.com/lingjin0725/Python" target="_blank">GitHub</a>.
+</p>
+
 
 ## [Project 2: Flight Delays and Network Analysis with High Dimensional Visualization in R](https://github.com/lingjin0725/nycflights13)
 
