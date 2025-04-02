@@ -18,33 +18,32 @@
 
 
 
-<h2 id="project1">Project 1: Financial Analysis of College Degrees Using Python & Tableau</h2>
+<h2 id="project1">Project 1: College ROI Analysis Using Python & Data Structures</h2>
 <p>
-  This is a project I completed for my Data Structures and Algorithms course, where I analyzed the financial outcomes of various undergraduate degrees. The goal was to identify which majors offer the highest mid-career salary and evaluate data structure performance using Python (Hash Table vs BST). I then visualized the findings using Tableau for an interactive, comparative salary breakdown.
+  This project, completed for my Data Structures and Algorithms course, explores the return on investment (ROI) of various undergraduate degrees by analyzing starting and mid-career salaries. Using Python, I implemented Hash Tables and Binary Search Trees to identify the most financially rewarding majors and compare performance efficiency. I then visualized the results in Tableau to provide an intuitive, interactive comparison.
 </p>
 
 <ul>
-  <li>Data Source: Kaggle's “Degrees That Pay Back” dataset</li>
-  <li>Algorithms Used: Hash Table and Binary Search Tree</li>
-  <li>Hashing enabled fast lookups; BST allowed ordered retrieval</li>
-  <li>Conclusion: Hash Table proved more efficient; Chemical Engineering ranked highest</li>
+  <li>Dataset: Kaggle’s “Degrees That Pay Back”</li>
+  <li>Techniques: Hash Table (O(1)) for fast lookups and BST (O(log n)) for ordered traversal</li>
+  <li>Insight: Chemical Engineering had the highest ROI. Hash Table proved more efficient for this task.</li>
 </ul>
 
-<!-- Tableau Embed -->
-<div class='tableauPlaceholder' id='viz1743627978573' style='position: relative; margin: 30px 0;'>
+<!-- Tableau Visualization Embed -->
+<div class='tableauPlaceholder' id='viz1743628775909' style='position: relative; margin: 30px 0;'>
   <noscript>
     <a href='#'>
-      <img alt='Sheet 1 ' src='https://public.tableau.com/static/images/Pr/Project1_17436277871230/Sheet1/1_rss.png' style='border: none' />
+      <img alt='Sheet 1 ' src='https://public.tableau.com/static/images/De/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1/1_rss.png' style='border: none' />
     </a>
   </noscript>
   <object class='tableauViz' style='display:none;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
     <param name='site_root' value='' />
-    <param name='name' value='Project1_17436277871230/Sheet1' />
+    <param name='name' value='DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1' />
     <param name='tabs' value='no' />
     <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/Pr/Project1_17436277871230/Sheet1/1.png' />
+    <param name='static_image' value='https://public.tableau.com/static/images/De/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1/1.png' />
     <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
     <param name='display_spinner' value='yes' />
@@ -55,7 +54,7 @@
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1743627978573');
+  var divElement = document.getElementById('viz1743628775909');
   var vizElement = divElement.getElementsByTagName('object')[0];
   vizElement.style.width = '100%';
   vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
@@ -65,8 +64,7 @@
 </script>
 
 <p>
-  View the full Python implementation and performance benchmarking on 
-  <a href="https://github.com/lingjin0725/Python" target="_blank">GitHub</a>.
+  ➤ View the full <a href="https://github.com/lingjin0725/Python" target="_blank">Python project on GitHub</a> for code, implementation details, and runtime comparisons.
 </p>
 
 
