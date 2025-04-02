@@ -17,7 +17,6 @@
 
 
 
-
 <h2 id="project1">Project 1: College ROI Analysis Using Python & Data Structures</h2>
 <p>
   This project, completed for my Data Structures and Algorithms course, explores the return on investment (ROI) of various undergraduate degrees by analyzing starting and mid-career salaries. Using Python, I implemented Hash Tables and Binary Search Trees to identify the most financially rewarding majors and compare performance efficiency. I then visualized the results in Tableau to provide an intuitive, interactive comparison.
@@ -63,9 +62,18 @@
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
+<!-- Performance Comparison Chart -->
+<h4>Performance Comparison: Hash Table vs. BST</h4>
+<p>
+  To evaluate algorithm efficiency, I recorded the runtime for both data structures on datasets of different sizes. As shown below, the hash table maintained consistent performance (O(1)), while the BST showed increased runtime as size grew (O(log n)). This helped validate the use of hashing for optimal speed in this project.
+</p>
+
+<img src="images/performance_chart.png" alt="Performance Comparison: Hash Table vs. BST" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 6px; margin-top: 15px;" />
+
 <p>
   ➤ View the full <a href="https://github.com/lingjin0725/Python" target="_blank">Python project on GitHub</a> for code, implementation details, and runtime comparisons.
 </p>
+
 
 
 ## [Project 2: Flight Delays and Network Analysis with High Dimensional Visualization in R](https://github.com/lingjin0725/nycflights13)
