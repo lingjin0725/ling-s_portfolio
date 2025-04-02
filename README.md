@@ -107,3 +107,124 @@ This is a project I did for my Statistical Modeling and Data Analytics course, w
 ![000010](https://github.com/user-attachments/assets/cd9979e2-624d-432c-a26a-b057f53472db)
 
 
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ling Jin Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: #222; line-height: 1.6; }
+    .panel { padding: 80px 20px; max-width: 800px; margin: 0 auto; opacity: 0; }
+    h2 { font-size: 2rem; margin-bottom: 20px; }
+    p, li { font-size: 1rem; }
+    ul { margin: 10px 0 30px 20px; }
+    img { max-width: 100%; border-radius: 8px; margin: 20px 0; }
+    iframe { width: 100%; height: 600px; border: none; margin: 30px 0; }
+  </style>
+</head>
+<body>
+
+  <section class="panel">
+    <h2>Ling Jin</h2>
+    <p>
+      I’m currently studying Data Analytics at Washington State University, with a strong interest in turning data into insights. I enjoy uncovering patterns, building intuitive visualizations, and helping drive data-informed decisions.
+    </p>
+    <p style="margin-top: 10px;">
+      <a href="Resume.pdf" target="_blank">Resume</a> |
+      <a href="https://www.linkedin.com/in/lingjin0913/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/lingjin0725" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <!-- Project 1 -->
+  <section class="panel">
+    <h2>Project 1: College ROI Analysis Using Python & Data Structures</h2>
+    <p>
+      This project analyzes ROI of college degrees by comparing starting and mid-career salaries. I implemented a hash table and BST in Python and visualized the findings in Tableau.
+    </p>
+    <ul>
+      <li>Dataset: Kaggle’s “Degrees That Pay Back”</li>
+      <li>Techniques: Hash Table and Binary Search Tree</li>
+      <li>Insight: Chemical Engineering had the highest ROI</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <iframe src="https://public.tableau.com/views/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1" allowfullscreen></iframe>
+  </section>
+
+  <section class="panel">
+    <h4>Performance Comparison: Hash Table vs. BST</h4>
+    <p>
+      The hash table maintained consistent O(1) performance, while the BST grew slower with O(log n) runtime. This performance chart visualizes their efficiency.
+    </p>
+    <img src="performance_chart.png" alt="Performance Comparison Chart">
+    <p>
+      ➤ View the full <a href="https://github.com/lingjin0725/Python" target="_blank">Python project on GitHub</a>
+    </p>
+  </section>
+
+  <!-- Project 2 -->
+  <section class="panel">
+    <h2>Project 2: Flight Delays & Network Analysis in R</h2>
+    <p>
+      Analyzed flight delays using nycflights13 with interactive visualizations in Plotly and network analysis with igraph. Identified route bottlenecks and delay patterns.
+    </p>
+    <ul>
+      <li>Techniques: Plotly, igraph, network graph layouts</li>
+      <li>Insight: Certain hubs showed consistent high delays and influence</li>
+    </ul>
+    <img src="https://github.com/user-attachments/assets/9c3bd060-5849-47d0-a316-01a423566341" alt="Flight delay map">
+    <img src="https://github.com/user-attachments/assets/bd5b29f7-a38b-452b-8ba9-a189877e183e" alt="Route network graph">
+  </section>
+
+  <!-- Project 3 -->
+  <section class="panel">
+    <h2>Project 3: Student Performance Prediction Using R</h2>
+    <p>
+      This project used data from UCI to predict cumulative GPA using socio-demographic and academic variables. Models used include regression, logistic regression, random forest, and KNN.
+    </p>
+    <ul>
+      <li>Best classifier: KNN with 88.1% accuracy</li>
+      <li>Key predictors: Study hours, course satisfaction, and engagement</li>
+    </ul>
+    <img src="https://github.com/user-attachments/assets/5a9c7d91-5b41-406e-a1f1-11961732b75f" alt="Correlation heatmap">
+    <img src="https://github.com/user-attachments/assets/abf7c6f3-1d8e-4fd0-bedf-fb4af7a9d071" alt="Feature importance bar">
+    <img src="https://github.com/user-attachments/assets/cd9979e2-624d-432c-a26a-b057f53472db" alt="GPA categories">
+  </section>
+
+  <!-- Scroll Animations -->
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray(".panel").forEach(panel => {
+      gsap.to(panel, {
+        opacity: 1,
+        y: 0,
+        duration: 1.2,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: panel,
+          start: "top 80%",
+          toggleActions: "play none none reverse"
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
