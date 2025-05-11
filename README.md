@@ -28,7 +28,7 @@
   <li>Insight: Chemical Engineering had the highest ROI. Hash Table proved more efficient for this task.</li>
 </ul>
 
-<!-- Tableau Visualization Embed -->
+<!-- Tableau Interactive Visualization Embed -->
 <div class='tableauPlaceholder' id='vizDegreePayback' style='position: relative; margin: 30px 0;'>
   <noscript>
     <a href='https://public.tableau.com/views/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1'>
@@ -74,6 +74,7 @@
 <p>
   ➤ View the full <a href="https://github.com/lingjin0725/Python" target="_blank">Python project on GitHub</a> for code, implementation details, and runtime comparisons.
 </p>
+
 
 
 
