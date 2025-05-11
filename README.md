@@ -71,9 +71,21 @@
      alt="Performance Comparison: Hash Table vs. BST" 
      style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 6px; margin-top: 15px;" />
 
+<!-- Insights & Findings -->
+<h4>Insights & Findings</h4>
+<ul>
+  <li>Chemical Engineering emerged as the most financially rewarding major, with the highest mid-career median salary of $107,000.</li>
+  <li>The hash table provided near-instant access to salary data regardless of dataset size. Its constant time complexity (O(1)) remained efficient as the dataset grew.</li>
+  <li>The binary search tree (BST) allowed for an ordered view of salaries and degrees, enabling ranked comparisons. However, its performance slowed with larger or unbalanced datasets due to logarithmic time complexity (O(log n)).</li>
+  <li>For tasks focused on finding a maximum value, hash tables proved faster and simpler than BSTs. BSTs may still be useful when ordered or range-based queries are required.</li>
+  <li>Implementing both data structures helped illustrate the trade-offs between speed and order in solving real-world problems.</li>
+  <li>Data cleaning steps such as removing currency symbols, filtering columns, and validating numeric values were essential to ensuring accurate results.</li>
+</ul>
+
 <p>
   ➤ View the full <a href="https://github.com/lingjin0725/Python" target="_blank">Python project on GitHub</a> for code, implementation details, and runtime comparisons.
 </p>
+
 
 
 
