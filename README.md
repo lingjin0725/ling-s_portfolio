@@ -29,10 +29,10 @@
 </ul>
 
 <!-- Tableau Visualization Embed -->
-<div class='tableauPlaceholder' id='viz1743628775909' style='position: relative; margin: 30px 0;'>
+<div class='tableauPlaceholder' id='vizDegreePayback' style='position: relative; margin: 30px 0;'>
   <noscript>
-    <a href='#'>
-      <img alt='Sheet 1 ' src='https://public.tableau.com/static/images/De/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1/1_rss.png' style='border: none' />
+    <a href='https://public.tableau.com/views/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1'>
+      <img alt='Degree Payback Comparison' src='https://public.tableau.com/static/images/De/DegreePaybackComparisonStartingvsMid-CareerSalary/Sheet1/1.png' style='border: none' />
     </a>
   </noscript>
   <object class='tableauViz' style='display:none;'>
@@ -49,11 +49,10 @@
     <param name='display_overlay' value='yes' />
     <param name='display_count' value='yes' />
     <param name='language' value='en-US' />
-    <param name='filter' value='publish=yes' />
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('viz1743628775909');
+  var divElement = document.getElementById('vizDegreePayback');
   var vizElement = divElement.getElementsByTagName('object')[0];
   vizElement.style.width = '100%';
   vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
