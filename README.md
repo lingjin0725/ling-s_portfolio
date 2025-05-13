@@ -95,7 +95,20 @@
 
 
 
-<!-- Updated: Study Time vs GPA -->
+<h2 id="project2">Project 2: Student Performance Prediction Using R & Machine Learning Models</h2>
+
+<p>
+  This project was completed as part of my <strong>Statistical Modeling course</strong>. I analyzed the academic performance of higher education students using machine learning models to predict GPA and uncover influential factors. The dataset was sourced from the <a href="https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation" target="_blank">UCI Machine Learning Repository</a>.
+</p>
+
+<ul>
+  <li><strong>Goal:</strong> Predict student GPA and identify key socio-economic, academic, and behavioral variables that influence performance.</li>
+  <li><strong>Tools Used:</strong> R (tidyverse, ggplot2, caret), Tableau for interactive visualization</li>
+  <li><strong>Algorithms Applied:</strong> Linear Regression, Logistic Regression, Random Forest, K-Nearest Neighbors (KNN)</li>
+  <li><strong>Key Techniques:</strong> Data cleaning, correlation analysis, model tuning, feature importance evaluation, and performance metrics (RMSE, accuracy)</li>
+</ul>
+
+<!-- Tableau: Study Time vs GPA -->
 <div class='tableauPlaceholder' id='vizStudyTimeGPA' style='width: 100%; margin: 30px 0;'>
   <object class='tableauViz' style='width: 100%; height: 700px;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
@@ -113,7 +126,7 @@
   </object>
 </div>
 
-<!-- Updated: Parent's Education vs GPA -->
+<!-- Tableau: Parent's Education vs GPA -->
 <div class='tableauPlaceholder' id='vizParentsEducation' style='width: 100%; margin: 30px 0;'>
   <object class='tableauViz' style='width: 100%; height: 700px;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
@@ -131,7 +144,7 @@
   </object>
 </div>
 
-<!-- Updated: Attendance vs GPA -->
+<!-- Tableau: Attendance vs GPA -->
 <div class='tableauPlaceholder' id='vizAttendanceGPA' style='width: 100%; margin: 30px 0;'>
   <object class='tableauViz' style='width: 100%; height: 700px;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
@@ -151,4 +164,16 @@
 
 <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 
+<h4>🔍 Insights & Findings</h4>
+<ul>
+  <li><strong>Parental education level</strong>, <strong>weekly study time</strong>, and <strong>student absences</strong> were the strongest predictors of GPA.</li>
+  <li>Random Forest achieved the highest prediction accuracy (~82%), outperforming both linear and logistic regression models.</li>
+  <li>Students with consistent study habits and strong family support showed a significant GPA advantage over peers lacking these factors.</li>
+  <li>Visualization of study time vs GPA revealed that students studying ≥10 hours/week performed 15–20% better on average.</li>
+  <li>Feature importance analysis validated that behavioral factors can be just as predictive as academic background.</li>
+</ul>
+
+<p>
+  ➤ View the full analysis and source code on <a href="https://github.com/lingjin0725/R" target="_blank">GitHub</a>.
+</p>
 
