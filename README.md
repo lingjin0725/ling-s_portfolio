@@ -110,64 +110,60 @@
 </ul>
 
 <!-- Tableau: Study Time vs GPA -->
-<div class='tableauPlaceholder' id='vizStudyTimeGPA' style='margin: 30px 0;'>
-  <noscript>
-    <a href='https://public.tableau.com/views/Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1'>
-      <img alt='Study Time vs GPA' src='https://public.tableau.com/static/images/St/Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1/1.png' style='border: none;' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
+<div class='tableauPlaceholder' id='vizStudyTimeGPA' style='width: 100%; height: 600px; margin: 30px 0;'>
+  <object class='tableauViz' width='100%' height='600'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
     <param name='name' value='Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1' />
     <param name='tabs' value='no' />
     <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/St/Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1/1.png' />
+    <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
   </object>
 </div>
 
 <!-- Tableau: Parent's Education vs GPA -->
-<div class='tableauPlaceholder' id='vizParentsEducation' style='margin: 30px 0;'>
-  <noscript>
-    <a href='https://public.tableau.com/views/ParentsEducationvsAverageGPA/Sheet12'>
-      <img alt='Parent Education vs GPA' src='https://public.tableau.com/static/images/Pa/ParentsEducationvsAverageGPA/Sheet12/1.png' style='border: none;' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
+<div class='tableauPlaceholder' id='vizParentsEducation' style='width: 100%; height: 600px; margin: 30px 0;'>
+  <object class='tableauViz' width='100%' height='600'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
     <param name='name' value='ParentsEducationvsAverageGPA/Sheet12' />
     <param name='tabs' value='no' />
     <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/Pa/ParentsEducationvsAverageGPA/Sheet12/1.png' />
+    <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
   </object>
 </div>
 
 <!-- Tableau: Attendance vs GPA -->
-<div class='tableauPlaceholder' id='vizAttendanceGPA' style='margin: 30px 0;'>
-  <noscript>
-    <a href='https://public.tableau.com/views/AttendancevsGPA/Sheet14'>
-      <img alt='Attendance vs GPA' src='https://public.tableau.com/static/images/At/AttendancevsGPA/Sheet14/1.png' style='border: none;' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
+<div class='tableauPlaceholder' id='vizAttendanceGPA' style='width: 100%; height: 600px; margin: 30px 0;'>
+  <object class='tableauViz' width='100%' height='600'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
     <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
     <param name='name' value='AttendancevsGPA/Sheet14' />
     <param name='tabs' value='no' />
     <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/At/AttendancevsGPA/Sheet14/1.png' />
+    <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
   </object>
 </div>
 
-<script type='text/javascript'>
-  var script = document.createElement('script');
-  script.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  document.body.appendChild(script);
-</script>
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 
 <h4>🔍 Insights & Findings</h4>
 <ul>
@@ -181,3 +177,4 @@
 <p>
   ➤ View the full analysis and source code on <a href="https://github.com/lingjin0725/R" target="_blank">GitHub</a>.
 </p>
+
