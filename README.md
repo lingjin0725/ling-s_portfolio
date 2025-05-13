@@ -109,23 +109,65 @@
   <li><strong>Key Techniques:</strong> Data cleaning, correlation analysis, model tuning, feature importance evaluation, and performance metrics (RMSE, accuracy)</li>
 </ul>
 
-<div style="margin: 30px 0;">
-  <img src="https://github.com/user-attachments/assets/5a9c7d91-5b41-406e-a1f1-11961732b75f" 
-       alt="Correlation Heatmap" 
-       style="max-width: 100%; border-radius: 8px; margin-bottom: 15px;" />
-
-  <img src="https://github.com/user-attachments/assets/abf7c6f3-1d8e-4fd0-bedf-fb4af7a9d071" 
-       alt="GPA Distribution by Study Time" 
-       style="max-width: 100%; border-radius: 8px; margin-bottom: 15px;" />
-
-  <img src="https://github.com/user-attachments/assets/87f405a2-73d6-4e67-9679-cc1b84545c2e" 
-       alt="Model Accuracy Comparison" 
-       style="max-width: 100%; border-radius: 8px; margin-bottom: 15px;" />
-
-  <img src="https://github.com/user-attachments/assets/cd9979e2-624d-432c-a26a-b057f53472db" 
-       alt="Feature Importance Plot - Random Forest" 
-       style="max-width: 100%; border-radius: 8px;" />
+<!-- Tableau: Study Time vs GPA -->
+<div class='tableauPlaceholder' id='vizStudyTimeGPA' style='margin: 30px 0;'>
+  <noscript>
+    <a href='https://public.tableau.com/views/Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1'>
+      <img alt='Study Time vs GPA' src='https://public.tableau.com/static/images/St/Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1/1.png' style='border: none;' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='name' value='Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/St/Studentsstudying10hoursweekperformed1520betteronaverage_/Sheet1/1.png' />
+    <param name='display_static_image' value='yes' />
+  </object>
 </div>
+
+<!-- Tableau: Parent's Education vs GPA -->
+<div class='tableauPlaceholder' id='vizParentsEducation' style='margin: 30px 0;'>
+  <noscript>
+    <a href='https://public.tableau.com/views/ParentsEducationvsAverageGPA/Sheet12'>
+      <img alt='Parent Education vs GPA' src='https://public.tableau.com/static/images/Pa/ParentsEducationvsAverageGPA/Sheet12/1.png' style='border: none;' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='name' value='ParentsEducationvsAverageGPA/Sheet12' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/Pa/ParentsEducationvsAverageGPA/Sheet12/1.png' />
+    <param name='display_static_image' value='yes' />
+  </object>
+</div>
+
+<!-- Tableau: Attendance vs GPA -->
+<div class='tableauPlaceholder' id='vizAttendanceGPA' style='margin: 30px 0;'>
+  <noscript>
+    <a href='https://public.tableau.com/views/AttendancevsGPA/Sheet14'>
+      <img alt='Attendance vs GPA' src='https://public.tableau.com/static/images/At/AttendancevsGPA/Sheet14/1.png' style='border: none;' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='name' value='AttendancevsGPA/Sheet14' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/At/AttendancevsGPA/Sheet14/1.png' />
+    <param name='display_static_image' value='yes' />
+  </object>
+</div>
+
+<script type='text/javascript'>
+  var script = document.createElement('script');
+  script.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  document.body.appendChild(script);
+</script>
 
 <h4>🔍 Insights & Findings</h4>
 <ul>
@@ -139,9 +181,3 @@
 <p>
   ➤ View the full analysis and source code on <a href="https://github.com/lingjin0725/R" target="_blank">GitHub</a>.
 </p>
-
-
-
-
-
-
